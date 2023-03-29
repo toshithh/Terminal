@@ -1,0 +1,78 @@
+div.terminal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 90vh;
+    width: 90vw;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.terminal-header{
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: white;
+    box-sizing: border-box;
+    padding: 1ch 1ch 1ch 1ch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: default;
+}
+
+.term-button{
+    float: right;
+    border-radius: 50%;
+    font-size: 8px;
+    font-weight: 200;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+#term-close{
+    background-color: red;
+    color: white;
+}
+#term-close:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    outline: none;
+}
+
+#user-space{
+    font-size: 16px;
+    margin-top: 2em;
+    color: white;
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#user-space::-webkit-scrollbar{
+    display: none;
+}
+
+input.user-inp{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100%;
+    cursor: default;
+}
+.unm{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.symb{
+    color: rgb(0, 205, 255);
+}
+.user{
+    width: 100%;
+    margin: 1em 0 1em 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <!--Imports for terminal-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Terminal.css">
+    <script src="Terminal.js"></script>
+    <script>
+        window.T = new Terminal("terminal");    //Create terminal object
+    </script>
+    <!--END-->
+</head>
+
+<body>
+    <video id="bg" autoplay loop muted>
+        <source src="bgvid.mp4" type="video/mp4">
+    </video>
+
+<!-- This is the terminal -->
+    <div class="terminal" id="terminal">
+        <header class="terminal-header" id="term-head"><button id="term-close" class="term-button">X</button></header>
+        <div id="user-space">
+
+        </div>
+    </div>
+<!-- Terminal ends -->
+
+</body>
+</html>
